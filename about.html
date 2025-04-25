@@ -1,1 +1,163 @@
+<!DOCTYPE html>
 
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>About - My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                <a href="index.html">Sai Pawar</a>
+
+            </div>
+
+            <ul class="nav-links" id="navLinks">
+
+                <li><a href="index.html">Home</a></li>
+
+                <li><a href="projects.html">Projects</a></li>
+
+                <li><a href="about.html" class="active">About</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+            <div class="hamburger" id="hamburger">
+
+                <span></span>
+
+                <span></span>
+
+                <span></span>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+
+    <main>
+
+        <section class="about-section">
+
+            <h1>About Me</h1>
+
+            <div class="about-container">
+
+                <div class="about-image">
+
+                    <img src="Yash.jpg" alt="Profile Photo" />
+
+                </div>
+
+                <div class="about-content">
+
+                    <h2>Hello! I'm Yash Raut</h2>
+
+                    <p>I'm a Computer Science student with a strong interest in software development, web technologies, and problem solving.</p>
+
+                     <p>I'm currently exploring programming, web development and app design. I'm excited to grow my skills through hands-on experience and collaboration.</p>
+
+                    <p>
+
+                        Outside of coding, I enjoy design, photography, and solving creative problems. I'm always eager to collaborate and take on exciting new challenges.
+
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="achievement-section">
+
+           <h1>Achievements</h1>
+
+           <h3>Linux Certificates</h3>
+
+        <div class="achievement-container">
+
+            <div class="achievement-image">
+
+                <img src="linux.jpg" alt="Linux Certificate"></div>
+
+            </div>
+
+        </div>
+
+        <div class="achievement-container">
+
+            <div class="achievement-image">
+
+                <img src="linux1.jpg" alt="Linux Certificate"></div>
+
+            </div>
+
+        </div>
+
+        </section>
+
+    </main>
+
+
+
+    <footer>
+
+        <div class="footer-content">
+
+            <div class="social-links">
+
+                <a href="https://github.com/YashR2006" aria-label="GitHub"><i class="fab fa-github"></i></a>
+
+                <a href="https://www.linkedin.com/in/yash-raut-15b789362?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+
+            </div>
+
+            <p>&copy; 2006 Yash Raut. All rights reserved.</p>
+
+        </div>
+
+    </footer>
+
+
+
+    <script>
+
+        const hamburger = document.getElementById('hamburger');
+
+        const navLinks = document.getElementById('navLinks');
+
+
+
+        hamburger.addEventListener('click', () => {
+
+            navLinks.classList.toggle('active');
+
+        });
+
+    </script>
+
+</body>
+
+</html>
